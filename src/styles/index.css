@@ -1,4 +1,77 @@
+body{
+    margin: 0%;
+    background-color: salmon;
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 500px;
+    color: white;
+    background-color: salmon;
+}
+button{
+    color: aliceblue;
+    background-color: salmon;
+    border-style: dotted;
+    border-color: aliceblue;
+    margin-left: 10px;
+    margin-top: 20px;
 
+}
+.numbers{
+    
+    scale: 200%;
+}
+
+span{
+ 
+    font-size: large;
+}
+#primero{
+    position:absolute;
+  
+    bottom: 300px;
+    opacity: 100%;
+   
+}
+#segundo{
+    position:absolute;
+    
+    bottom: 260px;
+    opacity: 90%;
+}
+#tercero{
+    position:absolute;
+  
+    bottom: 220px;
+    opacity: 80%;
+}
+#cuarto{
+    position:absolute;
+   
+    bottom: 180px;
+    opacity: 60%;
+}
+#quinto{
+    position:absolute;
+   
+    bottom: 140px;
+    opacity: 50%;
+}
+#sexto{
+    position:absolute;
+   
+    bottom: 100px;
+    opacity: 40%;
+}
+#septimo{
+    position:absolute;
+   
+    bottom: 60px;
+    opacity: 20%;
+}
 /* 
 
     You can write your own styles here...
